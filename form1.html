@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Membuat form</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form action="prosesform.html" method="post">
+            First Name:
+            <input type="text" name="first_name"
+            placeholder="Silahkan Isi"><br>
+            Last Name:
+            <input type="text" name="last_name"
+            placeholder="Silahkan Isi"><br>
+            Agama:
+            <select id="agm" name="agama">
+            <option value="1">Kristen</option>
+                <option value="2">Islam</option>
+                <option value="3">Budha</option>
+                <option value="4">Konghucu</option>
+                <option value="5">Hindu</option>
+            </select><br>
+            Alamat:<br>
+            <textarea name="alamat"></textarea><br>
+            Jenis Kelamin:
+            <input type="radio" name="jenis kelamin" value="pria">Pria
+            <input type="radio" name="Jenis kelamin" value="wanita">Wanita<br>
+            Hobi:<br>
+            <input type="checkbox" name="berenang">Berenang<br>
+            <input type="checkbox" name="memancing">Memancing<br>
+            <input type="checkbox" name="senam">Senam<br>
+            Upload Dokumen Anda:
+            <input type="file" name="file"><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
